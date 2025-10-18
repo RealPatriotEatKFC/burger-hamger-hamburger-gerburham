@@ -4,11 +4,11 @@
 
 pip install huggingface_hub requests beautifulsoup4
 
-burger_recommend_bot.py의 8번째 줄에 Hugging Face에서 토큰을 발급 받아 값을 집어 넣음
 
 ## 토큰 발급 ##
 ![Token 발급 사진](./hugging_face_burger_token.png)
 
+burger_recommend_bot.py의 8번째 줄에 Hugging Face에서 토큰을 발급 받아 값을 집어 넣음
 필요시, 89번 줄에 있는 model= 값을 수정하여 원하는 ai모델로 변경가능 
 기본 값으로 google/gemma-2-2b-it 모델 사용 중
 
